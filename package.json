@@ -1,0 +1,28 @@
+{
+  "name": "specmon",
+  "version": "1.0.0",
+  "description": "A JavaScript/TypeScript spec client for OpenAPI 3 and ExpressJS",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelolof/specmon.git"
+  },
+  "author": "michaelolof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelolof/specmon/issues"
+  },
+  "homepage": "https://github.com/michaelolof/specmon#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.4",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "express": "^"    
+  }
+}
